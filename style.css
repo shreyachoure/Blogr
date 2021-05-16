@@ -141,8 +141,9 @@ button {
     border-bottom-left-radius: 70px; 
     margin-top: 250px;
     margin-bottom: 50px;
-    background: url("./images/bg-pattern-circles.svg");
-    background-position: top center;
+    
+    background-repeat: no-repeat;
+    background-position: top left;
     
 }
 .circles {
@@ -150,7 +151,7 @@ button {
     display: block;
     width: 100%;
 }
-.intro {}
+
 .phones {
     display: block;
     width: 100%;
@@ -209,8 +210,6 @@ li {
     }
     .desktop-intro img {
         margin-top: -100px;
-        
-        width: 50%;
     }
     .content h2, p {
         text-align: left;
@@ -225,8 +224,33 @@ li {
         display: flex;
         flex-direction: row;
     }
-
+    .content1 {
+        margin-top: 100px;
+    }
+    .content1 h2 {
+        text-align: left;
+        width: 50%;
+    }
     .info {
-        display: none;
+        padding: 90px 0px;
+    }
+    .phones {
+        width: 50%;
+        float:left;
+    }
+    .state {
+        width: 50%;
+        float: right;
+        margin: auto;
+    }
+    .state h1{
+        text-align: left; 
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .state p{
+        width: 55%;
+        text-align: left;
+        margin: 0px;
     }
 }
